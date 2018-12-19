@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/vzIUHo9z-oJ4WgkpPOtg1_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v10/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+#side_bar
+{font-family:Roboto;
+width:300px;
+height:400px;
+background-color:#d2d2d2;
+}
+a{
+text-decoration:none;
+color:white;
+font-family:Roboto;
+}
+.button {
+font-family:Roboto;
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 16.5px 33px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 21px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   width:300px;
+
+   margin-top:20px;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+ 
+ #login {
+   border-top: 1px solid #000000;
+   background: #05080a;
+   background: -webkit-gradient(linear, left top, left bottom, from(#010203), to(#05080a));
+   background: -webkit-linear-gradient(top, #010203, #05080a);
+   background: -moz-linear-gradient(top, #010203, #05080a);
+   background: -ms-linear-gradient(top, #010203, #05080a);
+   background: -o-linear-gradient(top, #010203, #05080a);
+   padding: 16.5px 33px;
+   -webkit-border-radius: 1px;
+   -moz-border-radius: 1px;
+   border-radius: 1px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #dbccdb;
+   font-size: 21px;
+   font-family:Roboto;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-top:10px;
+   width:300px;
+   }
